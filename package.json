@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "\"hoc nodejs\"",
+  "main": "index.js",
+  "scripts": {
+    "start" :"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucnguyenDE/nodejs_blog.git"
+  },
+  "keywords": [
+    "luc",
+    "lucnguyen",
+    "blog",
+    "nodejs"
+  ],
+  "author": "lucnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucnguyenDE/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/LucnguyenDE/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
